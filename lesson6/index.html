@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <header class="header center">
+        <div class="header__left">
+            <a href="index.html"><img src="img/menu/logo.svg" alt="logo"></a>
+            <a href="#"><img class="header__search" src="img/menu/search.svg" alt="search"></a>
+        </div>
+        <div class="header__right">
+            <input type="checkbox" id="switcher">
+            <label for="switcher">
+                <svg class="header__icons1" width="32" height="23" viewBox="0 0 32 23" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z" fill="#E8E8E8" />
+                </svg>
+            </label>
+            <nav class="nav">
+                <label class="nav__close" for="switcher"><svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M7.4158 6.00409L11.7158 1.71409C11.9041 1.52579 12.0099 1.27039 12.0099 1.00409C12.0099 0.73779 11.9041 0.482395 11.7158 0.294092C11.5275 0.105788 11.2721 0 11.0058 0C10.7395 0 10.4841 0.105788 10.2958 0.294092L6.0058 4.59409L1.7158 0.294092C1.52749 0.105788 1.2721 -1.9841e-09 1.0058 0C0.739497 1.9841e-09 0.484102 0.105788 0.295798 0.294092C0.107495 0.482395 0.0017066 0.73779 0.0017066 1.00409C0.0017066 1.27039 0.107495 1.52579 0.295798 1.71409L4.5958 6.00409L0.295798 10.2941C0.20207 10.3871 0.127676 10.4977 0.0769072 10.6195C0.0261385 10.7414 0 10.8721 0 11.0041C0 11.1361 0.0261385 11.2668 0.0769072 11.3887C0.127676 11.5105 0.20207 11.6211 0.295798 11.7141C0.388761 11.8078 0.499362 11.8822 0.621222 11.933C0.743081 11.9838 0.873786 12.0099 1.0058 12.0099C1.13781 12.0099 1.26852 11.9838 1.39038 11.933C1.51223 11.8822 1.62284 11.8078 1.7158 11.7141L6.0058 7.41409L10.2958 11.7141C10.3888 11.8078 10.4994 11.8822 10.6212 11.933C10.7431 11.9838 10.8738 12.0099 11.0058 12.0099C11.1378 12.0099 11.2685 11.9838 11.3904 11.933C11.5122 11.8822 11.6228 11.8078 11.7158 11.7141C11.8095 11.6211 11.8839 11.5105 11.9347 11.3887C11.9855 11.2668 12.0116 11.1361 12.0116 11.0041C12.0116 10.8721 11.9855 10.7414 11.9347 10.6195C11.8839 10.4977 11.8095 10.3871 11.7158 10.2941L7.4158 6.00409Z"
+                            fill="#6F6E6E" />
+                    </svg>
+                </label>
+                <h3 class="nav__heading">MENU</h3>
+                <ul class="nav__ul">
+                    <li class="nav__man"><a class="nav__section" href="product.html">MAN</a>
+                        <ul class="nav__ul">
+                            <li class="nav__li"><a class="nav__link" href="#">Accessories</a></li>
+                            <li class="nav__li"><a class="nav__link" href="#">Bags</a></li>
+                            <li class="nav__li"><a class="nav__link" href="#">Denim</a></li>
+                            <li class="nav__li"><a class="nav__link" href="#">T-Shirts</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__woman"><a class="nav__section" href="product.html">WOMAN</a>
+                        <ul class="nav__ul">
+                            <li class="nav__li"><a class="nav__link" href="#">Accessories</a></li>
+                            <li class="nav__li"><a class="nav__link" href="#">Jackets & Coats</a></li>
+                            <li class="nav__li"><a class="nav__link" href="#">Polos</a></li>
+                            <li class="nav__li"><a class="nav__link" href="#">T-Shirts</a></li>
+                            <li class="nav__li"><a class="nav__link" href="#">Shirts</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__kids"><a class="nav__section" href="product.html">KIDS</a>
+                        <ul class="nav__ul">
+                            <li class="nav__li"><a class="nav__link" href="#">Accessories</a></li>
+                            <li class="nav__li"><a class="nav__link" href="#">Jackets & Coats</a></li>
+                            <li class="nav__li"><a class="nav__link" href="#">Polos</a></li>
+                            <li class="nav__li"><a class="nav__link" href="#">T-Shirts</a></li>
+                            <li class="nav__li"><a class="nav__link" href="#">Shirts</a></li>
+                            <li class="nav__li"><a class="nav__link" href="#">Bags</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <a href="registration.html"><img class="header__icons" src="img/menu/account.svg" alt="account"></a>
+            <span class="cartIconWrap">
+                <img class="cartIcon" src="img/menu/cart.svg" alt="cart">
+                <span>0</span>
+            </span>
+            <div class="basket hidden">
+                <div class="basketRow basketHeader">
+                    <div>Название товара</div>
+                    <div>Количество</div>
+                    <div>Цена за шт.</div>
+                    <div>Итого</div>
+                </div>
+
+                <div class="basketTotal">
+                    Товаров в корзине на сумму:
+                    $<span class="basketTotalValue">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="promo">
+        <div class="promo__left">
+            <img class="promo__img" src="img/promo/promo.png" alt="promo">
+        </div>
+        <div class="promo__right">
+            <div class="promo__content">
+                <h1 class="promo__h1">THE BRAND</h1>
+                <h3 class="promo__heading">OF LUXERIOUS <span class="promo__text">FASHION</span></h3>
+            </div>
+        </div>
+    </section>
+    <section class="sale center">
+        <div class="sale__box">
+            <div class="sale__item">
+                <img class="sale__img" src="img/sale/sale1.jpg" alt="sale img">
+                <div class="sale__content">
+                    <p class="sale__text">30% OFF</p>
+                    <h3 class="sale__heading">FOR WOMEN</h3>
+                </div>
+            </div>
+            <div class="sale__item">
+                <img class="sale__img" src="img/sale/sale2.jpg" alt="sale img">
+                <div class="sale__content">
+                    <p class="sale__text">HOT DEAL</p>
+                    <h3 class="sale__heading">FOR MEN</h3>
+                </div>
+            </div>
+            <div class="sale__item">
+                <img class="sale__img" src="img/sale/sale3.jpg" alt="sale img">
+                <div class="sale__content">
+                    <p class="sale__text">NEW ARRIVALS</p>
+                    <h3 class="sale__heading">FOR KIDS</h3>
+                </div>
+            </div>
+        </div>
+        <div class="sale__item sale__item_big">
+            <img class="sale__img2" src="img/sale/sale4.jpg" alt="sale img">
+            <div class="sale__content">
+                <p class="sale__text">LUXIROUS & TRENDY</p>
+                <h3 class="sale__heading">ACCESORIES</h3>
+            </div>
+        </div>
+    </section>
+    <section class="catalog center">
+        <div class="shop__heading">
+            <h1 class="shop__h1">Fetured Items</h1>
+            <h3 class="shop__h3">Shop for items based on what we featured in this week</h3>
+        </div>
+        <div class="featuredItems">
+        </div>
+        <div class="button center">
+            <a href="catalog.html"><button class="button__text" type="submit">Browse All Product</button></a>
+        </div>
+    </section>
+    <section class="advantages center">
+        <div class="advantages__box">
+            <article class="advantages__item">
+                <img class="advantages__img" src="img/advantages/Forma 1.png" alt="advantages">
+                <div class="advantages__content">
+                    <h3 class="advantages__heading">Free Delivery</h3>
+                    <p class="advantages__text">Worldwide delivery on all. Authorit tively morph next-generation innov
+                        tion with extensive models.</p>
+                </div>
+            </article>
+            <article class="advantages__item">
+                <img class="advantages__img" src="img/advantages/Forma 2.png" alt="advantages">
+                <div class="advantages__content">
+                    <h3 class="advantages__heading">Sales & discounts</h3>
+                    <p class="advantages__text">Worldwide delivery on all. Authorit tively morph next-generation innov
+                        tion with extensive models.</p>
+                </div>
+            </article>
+            <article class="advantages__item">
+                <img class="advantages__img" src="img/advantages/Forma 3.png" alt="advantages">
+                <div class="advantages__content">
+                    <h3 class="advantages__heading">Quality assurance</h3>
+                    <p class="advantages__text">Worldwide delivery on all. Authorit tively morph next-generation innov
+                        tion with extensive models.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="subscribe">
+        <div class="subscribe__box center">
+            <div class="subscribe__box__item">
+                <img class="subscribe__box__img1" src="img/subscribe/Intersect.png" alt="Intersect">
+                <div class="subscribe__box__content">
+                    <p class="subscribe__box__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar
+                        purus
+                        condimentum“</p>
+                </div>
+            </div>
+            <div class="subscribe__box__block">
+                <div class="subscribe__box__content">
+                    <h3 class="subscribe__box__heading">SUBSCRIBE</h3>
+                    <p class="subscribe__box__text">FOR OUR NEWLETTER AND PROMOTION</p>
+                </div>
+                <div class="subscribe__box__form">
+                    <form action="" method="get">
+                        <input class="subscribe__box__input" name="login" placeholder="Enter Your Email" type="email">
+                        <button class="subscribe__box__button" type="submit">Subscribe</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer center">
+        <div class="footer__left">
+            <p class="footer__all-rights">&copy; 2021 Brand All Rights Reserved.</p>
+        </div>
+        <div class="footer__right">
+            <a href="#"><img class="footer__icons" src="img/footer/facebook.svg" alt="facebook"></a>
+            <a href="#"><img class="footer__icons" src="img/footer/insta.svg" alt="instagram"></a>
+            <a href="#"><img class="footer__icons" src="img/footer/pinterest.svg" alt="pinterest"></a>
+            <a href="#"><img class="footer__icons" src="img/footer/twitter.svg" alt="twitter"></a>
+        </div>
+    </footer>
+    <script src="script/basket.js"></script>
+    <script src="script/ProductDTO.js"></script>
+    <script src="script/products.js"></script>
+    <script src="script/productsCards.js"></script>
+</body>
+
+</html>
