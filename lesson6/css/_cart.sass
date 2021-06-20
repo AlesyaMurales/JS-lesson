@@ -1,0 +1,255 @@
+.cart
+    margin-top: 96px
+    margin-bottom: 72px
+    display: flex
+
+    &__product
+        display: flex
+        background: #FFFFFF
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+        height: 306px
+        width: 652px
+
+    &__text
+        height: 306px
+        width: 390px
+        margin-left: 31px
+        margin-top: 6px
+
+    &__heading
+        font-family: Lato
+        font-style: normal
+        font-weight: normal
+        font-size: 24px
+        line-height: 29px
+        color: #222222
+        margin-bottom: 42px
+        margin-top: 22px
+        height: 58px
+        width: 190px
+
+    &__heading:hover
+        color: $colorSelect
+
+    &__h3
+        font-family: Lato
+        font-style: normal
+        font-weight: normal
+        font-size: 22px
+        line-height: 26px
+        color: #575757
+
+    &__red
+        font-family: Lato
+        font-style: normal
+        font-weight: normal
+        font-size: 22px
+        line-height: 26px
+        color: $colorSelect
+
+    &__product:not(:last-child)
+        margin-bottom: 40px
+
+    &__h3:not(:last-child)
+        margin-bottom: 6px
+
+    &__numbers
+        font-family: Lato
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        line-height: 22px
+        color: #656565
+        margin-left: 20px
+        padding: 3px 17px 3px 16px
+        border: 1px solid #EAEAEA
+        width: 23px
+        height: 25px
+
+    &__button-btn
+        margin-top: 72px
+        margin-bottom: 128px
+        width: 652px
+        display: flex
+        justify-content: space-between
+
+    &__btn:hover
+        background-color: $colorSelect + #111
+        color: #fff
+
+    &__btn
+        font-family: Lato
+        font-style: normal
+        font-weight: 300
+        font-size: 14px
+        line-height: 17px
+        color: #000000
+        border: 1px solid #A4A4A4
+        background-color: white
+        text-align: center
+        padding: 14px 39px 16px 39px
+        transition: .3s ease
+
+    &__block
+        display: block
+        justify-content: space-between
+
+    &__form
+        height: 272px
+        width: 360px
+        margin-bottom: 57px
+
+    &__title
+        font-family: Lato
+        font-style: normal
+        font-weight: 300
+        font-size: 16px
+        line-height: 19px
+        color: #222222
+        margin-bottom: 20px
+        margin-top: 22px
+
+    &__spn
+        list-style-type: none
+
+    &__ul:not(:last-child)
+        margin-bottom: 21px
+
+    &__input
+        background: #FFFFFF
+        width: 360px
+        border: 1px solid #A4A4A4
+        border-radius: 0px
+        padding: 13px 17px 16px
+
+    &__adress
+        padding: 9px 15px 11px
+        border: 1px solid #A4A4A4
+        background: #FFFFFF
+        font-family: Lato
+        font-style: normal
+        font-weight: 300
+        font-size: 11px
+        line-height: 13px
+        color: #4A4A4A
+        transition: .3s ease
+
+    &__adress:hover
+        background-color: $colorSelect + #111
+        color: #fff
+
+    &__shop
+        height: 214px
+        width: 360px
+        background: #F5F3F3
+        margin-bottom: 30px
+
+    &__total-h3
+        font-family: Lato
+        font-style: normal
+        font-weight: normal
+        font-size: 11px
+        line-height: 13px
+        color: #4A4A4A
+        margin-left: 218px
+        padding-top: 39px
+
+    &__mon
+        font-family: Lato
+        font-style: normal
+        font-weight: normal
+        font-size: 11px
+        line-height: 13px
+        color: #4A4A4A
+        margin-left: 20px
+
+    &__total-h1
+        font-family: Lato
+        font-style: normal
+        font-weight: 300
+        font-size: 16px
+        line-height: 19px
+        color: #222222
+        margin-left: 153px
+        margin-top: 12px
+
+    &__mon-h1
+        font-family: Lato
+        font-style: normal
+        font-weight: 300
+        font-size: 16px
+        line-height: 19px
+        color: #F16D7F
+        margin-top: 12px
+        margin-bottom: 21px
+        margin-left: 20px
+
+    &__buy:hover
+        background-color: #fff
+        color: $colorSelect + #111
+
+    &__buy
+        margin-top: 17px
+        margin-left: 44px
+        display: flex
+        justify-content: space-between
+        font-family: Lato
+        font-style: normal
+        font-weight: 300
+        font-size: 16px
+        line-height: 19px
+        background-color: #F16D7F
+        text-align: center
+        padding: 15px 43px 16px 41px
+        color: #FFFFFF
+        border: 1px solid #F16D7F
+        transition: .3s ease
+
+    &__hr
+        margin-top: 21px
+        background: #E2E2E2
+        width: 275px
+        margin-left: 43px
+        border: 1px solid #E2E2E2
+
+    &__forms
+        margin-left: 128px
+
+.cl-btn-2
+    margin: 20px
+    display: flex
+    justify-content: center
+
+    & div
+        cursor: pointer
+        position: relative
+        height: 68px
+        width: 50px
+
+    & .leftright
+        height: 4px
+        width: 40px
+        position: absolute
+        margin-top: 24px
+        background-color: #575757
+        border-radius: 2px
+        transform: rotate(45deg)
+        transition: all .3s ease-in
+
+    & .rightleft
+        height: 4px
+        width: 40px
+        position: absolute
+        margin-top: 24px
+        background-color: #575757
+        border-radius: 2px
+        transform: rotate(-45deg)
+        transition: all .3s ease-in
+
+    & div:hover .leftright
+        transform: rotate(-45deg)
+        background-color: #000
+
+    & div:hover .rightleft
+        transform: rotate(45deg)
+        background-color: #000

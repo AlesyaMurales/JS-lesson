@@ -1,0 +1,143 @@
+@import vars
+
+.breadcrumbs
+    background: #F8F3F4
+    height: 148px
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+    &__navigation
+        display: flex
+        list-style-type: none
+
+    &__heading
+        font-family: Lato
+        font-style: normal
+        font-weight: normal
+        font-size: 24px
+        line-height: 29px
+        color: $colorSelect
+        margin-top: 59px
+        margin-bottom: 60px
+
+    &__navigation__li:last-child .breadcrumbs__navigation__link
+        font-weight: bold
+        font-size: 14px
+        line-height: 17px
+        color: $colorSelect
+
+    &__navigation__li:not(:last-child)::after
+        content: '/'
+        padding-left: 8px
+        padding-right: 8px
+
+    &__navigation__link
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        line-height: 17px
+        color: #636363
+        &:hover
+            color: $colorSelect
+
+.filter
+    padding-top: 39px
+    padding-bottom: 33px
+    display: flex
+
+    &__menu
+        display: flex
+        position: relative
+        height: 48px
+        margin-right: 400px
+
+    &__name
+        outline: none
+        list-style-type: none
+
+    &__path
+        margin-left: 11px
+
+    &__main
+        position: absolute
+        z-index: 2
+        background-color: #fff
+        padding: 13px 16px 16px
+        width: $width4
+        list-style-type: none
+        box-sizing: border-box
+        &[open]
+            box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+            border: 1px solid #EBEBEB
+        &[open] .filter__name
+            color: $colorSelect
+        &[open] svg path
+            fill: $colorSelect
+
+    &__list
+        margin-top: 16px
+        &[open] .filter__category
+            color: $colorSelect
+
+    &__size:not(:last-child)
+        margin-right: 27px
+
+    &__category
+        list-style-type: none
+        border-left: 5px solid $colorSelect
+        &-active
+            display: block
+            height: 37px
+            border-bottom: 1px solid #EBEBEB
+            padding-left: 11px
+            line-height: 37px
+
+    &__content-ul
+        list-style-type: none
+        padding-left: 16px
+        margin-top: 24px
+
+    &__content-links
+        font-size: 14px
+        line-height: 17px
+        color: #6F6E6E
+        margin-bottom: 11px
+        display: block
+        &:hover
+            color: $colorSelect
+
+    &__marker
+        list-style: none
+        margin-top: 8px
+        align-items: center
+        margin-left: 9px
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        line-height: 16px
+        color: #6F6E6E
+
+    &__checkbox
+        margin-right: 9px
+
+    &__block
+        position: absolute
+        z-index: 2
+        border: 1px solid #FFFFFF
+        width: 79px
+        height: 103px
+        background: #FFFFFF
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+
+.size
+    display: flex
+    margin-bottom: 5px
+    align-items: center
+
+.size::after
+    content: 'V'
+    padding-left: 0.6em
+
+.details[open] > .size::after
+    content: 'V'
