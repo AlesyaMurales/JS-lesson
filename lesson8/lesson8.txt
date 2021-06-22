@@ -1,0 +1,46 @@
+1. Применить замыкание можно: при клике по кнопке "Add to cart"
+
+2. 
+	
+а) 	if (!("a" in window)) {
+    	var a = 1;
+	}
+	alert(a);
+
+Браузер выведет: undefined
+
+б) 	var b = function a(x) {
+    	x && a(--x);
+	};
+	alert(a);
+
+Браузер выведет: ничего не выведет
+
+в) 	function a(x) {
+    	return x * 2;
+	}
+	var a;
+	alert(a);
+
+Браузер выведет: тело функции:
+	function a(x) {
+    	return x * 2;
+	}
+
+г) 	function b(x, y, a) {
+    	arguments[2] = 10;
+    	alert(a);
+	}
+	b(1, 2, 3);
+
+Браузер выведет: 10
+
+д)	function a() {
+    	alert(this);
+	}
+	a.call(null);
+
+Браузер выведет: [object Window]
+	
+
+
